@@ -1,0 +1,209 @@
+body {
+	background: #f1f1f1;
+	color: #666;
+	font-size: 12px;
+	line-height: 18px;
+}
+.page-title span, body {
+    font-family: Georgia,"Bitstream Charter",serif
+}
+#branding, #main, #wrapper, div.menu {
+	margin: 0 auto;
+	width: 940px;
+}
+#wrapper {
+	padding: 0;
+	background: #fff;
+	margin: 20px auto 0 auto;
+	width: 940px;
+}
+#content {
+	color: #333;
+	font-size: 16px;
+	line-height: 24px;
+}
+#content ul {
+	margin: 0 0 24px 24px;
+	list-style: square;
+	padding: 0;
+}
+h1, h2, h3 {
+	clear: both;
+	font-weight: 400;
+}
+#content h1, #content h2, #content h3 {
+	color: #000;
+	line-height: 1.5em;
+	margin: 0 0 20px;
+}
+
+a:link, .bitcoin-form {
+	text-decoration:none;
+	opacity:0.6;
+}
+a:hover, .bitcoin-form:hover {
+	opacity:1;
+}
+
+#header {
+	position:fixed;
+	top:0;
+	padding:0;
+	background-color: #FFF;
+	overflow:hidden;
+	z-index:2;
+}
+#site-title {
+	line-height: 36px;
+	margin: 0 0 18px;
+	width: 700px;
+	font-size: 30px;
+	font-family: "Helvetica Neue",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+	font-weight: 700;
+}
+#site-title a {
+	color: #000;
+	text-decoration: none;
+}
+
+#site-description {
+	clear: right;
+	float: right;
+	font-style: italic;
+	margin: 15px 0 18px;
+	width: 220px;
+
+}
+
+.top-content {
+	padding-top:15px;
+	margin-left:180px;
+}
+blockquote {
+	margin: 0;
+	padding: 0 48px;
+}
+blockquote p {
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+#contact-info {
+	float:left;
+	font-size:15px;
+}
+
+
+#illustration {
+	position:absolute;
+	margin:7px 20px;
+	width:120px;
+	height:118px;
+	border: 2px dotted darkgray;
+	background-image:url('../img/me.jpg');
+	background-position: 0 -2px;
+	overflow:hidden;
+}
+
+#illustration:hover {
+	background-position:120px -2px;
+}
+
+#main {
+	margin-top: 140px;
+	/*height:600px;*/
+	padding:0;
+}
+
+#container {
+	height:inherit;
+}
+
+.one-column #content {
+	width:inherit;
+	height:inherit;
+}
+#wrapper {
+	padding:0;
+}
+#wrapper > div {
+	border-right:1px solid gray;
+	border-left:1px solid gray;
+}
+
+#cv_info {
+	padding:20px;
+}
+
+.entry-content {
+	padding:0;
+}
+
+p.indentlight {
+	padding-left:15px;
+}
+
+#education > ul > li {
+	margin:10px 0;
+}
+#other {
+	margin-top:120px;
+}
+#social-media a {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background-image: url('../img/social_media.png');
+}
+
+#twitter_link {
+	background-position: 0 164px;
+}
+
+#linkedin_link {
+	background-position: 0 131px;
+}
+
+#fb_link {
+	background-position: 0 99px;
+}
+
+#skype_link {
+	background-position: 0 65px;
+}
+
+#github_link {
+	background-position: 0 32px;
+}
+
+.widget_polylang {
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+}
+.widget_polylang ul {
+	list-style-type:none;
+	margin:0;
+}
+.widget_polylang ul li {
+	display:inline-block;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+ #site-title {
+    font-size:50px;
+ }
+ #contact-info {
+  font-size:25px;
+ }
+ #container li {
+    line-height: 40px;
+ }
+ #site-description {
+  font-size: 20px;
+  margin-right: 30px;
+  margin-top: -10px;
+  line-height: 26px;
+ }
+}
