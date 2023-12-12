@@ -34,7 +34,7 @@ h1, h2, h3 {
 #content h1, #content h2, #content h3 {
 	color: #000;
 	line-height: 1.5em;
-	margin: 0 0 20px;
+	margin: 0 0 10px;
 }
 
 a:link, .bitcoin-form {
@@ -71,7 +71,7 @@ a:hover, .bitcoin-form:hover {
 	float: right;
 	font-style: italic;
 	margin: 15px 0 18px;
-	width: 220px;
+	width: 240px;
 
 }
 
@@ -96,16 +96,16 @@ blockquote p {
 #illustration {
 	position:absolute;
 	margin:7px 20px;
-	width:120px;
-	height:118px;
+	width:130px;
+	height:130px;
 	border: 2px dotted darkgray;
-	background-image:url('../img/me.jpg');
-	background-position: 0 -2px;
 	overflow:hidden;
+	filter: grayscale(1);
+	cursor: pointer;
 }
 
 #illustration:hover {
-	background-position:120px -2px;
+	filter: grayscale(0);
 }
 
 #main {
@@ -131,7 +131,7 @@ blockquote p {
 }
 
 #cv_info {
-	padding:20px;
+	padding: 20px;
 }
 
 .entry-content {
@@ -145,34 +145,13 @@ p.indentlight {
 #education > ul > li {
 	margin:10px 0;
 }
-#other {
-	margin-top:120px;
-}
 #social-media a {
+	display: inline-block;
+}
+
+#social-media img {
 	width: 32px;
 	height: 32px;
-	display: inline-block;
-	background-image: url('../img/social_media.png');
-}
-
-#twitter_link {
-	background-position: 0 164px;
-}
-
-#linkedin_link {
-	background-position: 0 131px;
-}
-
-#fb_link {
-	background-position: 0 99px;
-}
-
-#skype_link {
-	background-position: 0 65px;
-}
-
-#github_link {
-	background-position: 0 32px;
 }
 
 .widget_polylang {
